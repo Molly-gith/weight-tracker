@@ -1,0 +1,62 @@
+{
+  "pages": [
+    {
+      "path": "pages/today/today",
+      "style": {
+        "navigationBarTitleText": "今天",
+        "navigationBarBackgroundColor": "#F7F3EC",
+        "navigationBarTextStyle": "black",
+        "backgroundColor": "#F7F3EC"
+      }
+    },
+    {
+      "path": "pages/calendar/calendar",
+      "style": {
+        "navigationBarTitleText": "日历",
+        "navigationBarBackgroundColor": "#F7F3EC",
+        "navigationBarTextStyle": "black",
+        "backgroundColor": "#F7F3EC"
+      }
+    },
+    {
+      "path": "pages/onboarding/onboarding",
+      "style": {
+        "navigationBarTitleText": "设定目标",
+        "navigationBarBackgroundColor": "#F7F3EC",
+        "navigationBarTextStyle": "black",
+        "backgroundColor": "#F7F3EC"
+      }
+    },
+    {
+      "path": "pages/account/account",
+      "style": {
+        "navigationBarTitleText": "账号",
+        "navigationBarBackgroundColor": "#F7F3EC",
+        "navigationBarTextStyle": "black",
+        "backgroundColor": "#F7F3EC"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "晨昏 · 体重日历",
+    "navigationBarBackgroundColor": "#F7F3EC",
+    "backgroundColor": "#F7F3EC"
+  },
+  "tabBar": {
+    "color": "#A9A091",
+    "selectedColor": "#2B2620",
+    "backgroundColor": "#FFFDF9",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/today/today",
+        "text": "今天"
+      },
+      {
+        "pagePath": "pages/calendar/calendar",
+        "text": "日历"
+      }
+    ]
+  }
+}

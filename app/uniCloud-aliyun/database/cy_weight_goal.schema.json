@@ -1,0 +1,31 @@
+{
+  "bsonType": "object",
+  "required": ["user_id", "start_weight", "target_weight", "start_date"],
+  "permission": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  },
+  "properties": {
+    "_id": {
+      "description": "目标ID,系统自动生成"
+    },
+    "user_id": {
+      "bsonType": "string",
+      "description": "所属用户ID,唯一"
+    },
+    "start_weight": {
+      "bsonType": "double",
+      "description": "起点体重 kg"
+    },
+    "target_weight": {
+      "bsonType": "double",
+      "description": "目标体重 kg"
+    },
+    "start_date": {
+      "bsonType": "string",
+      "description": "开始日期 YYYY-MM-DD"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "bsonType": "object",
+  "required": ["user_id", "date"],
+  "permission": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  },
+  "properties": {
+    "_id": {
+      "description": "记录ID,系统自动生成"
+    },
+    "user_id": {
+      "bsonType": "string",
+      "description": "所属用户ID"
+    },
+    "date": {
+      "bsonType": "string",
+      "description": "日期 YYYY-MM-DD"
+    },
+    "am": {
+      "bsonType": ["double", "null"],
+      "description": "晨重 kg"
+    },
+    "pm": {
+      "bsonType": ["double", "null"],
+      "description": "晚重 kg"
+    },
+    "am_time": {
+      "bsonType": ["timestamp", "null"],
+      "description": "晨重记录时间"
+    },
+    "pm_time": {
+      "bsonType": ["timestamp", "null"],
+      "description": "晚重记录时间"
+    }
+  }
+}

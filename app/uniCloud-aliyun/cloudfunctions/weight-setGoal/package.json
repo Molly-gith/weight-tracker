@@ -1,0 +1,9 @@
+{
+  "name": "weight-setGoal",
+  "version": "1.0.0",
+  "cloudfunction-config": {
+    "concurrency": 1,
+    "timeout": 5,
+    "memorySize": 128
+  }
+}
