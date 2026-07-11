@@ -81,10 +81,10 @@ body{background:var(--paper);color:var(--ink);font-family:'Newsreader',Georgia,s
 .feat-drawer-head{flex-shrink:0;padding:24px 24px 16px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);}
 .feat-drawer-title{font-family:'Fraunces',serif;font-weight:500;font-size:16px;color:var(--ink);}
 .feat-drawer-close{background:none;border:none;font-size:24px;color:var(--ink-soft);cursor:pointer;width:32px;height:32px;}
-.feat-list{flex:1;overflow-y:auto;padding:20px 24px 40px;}
+.feat-list{flex:1;overflow-y:auto;padding:0 24px 40px;}
 .feat-group{margin-bottom:22px;}
 .feat-group:last-child{margin-bottom:0;}
-.feat-group-title{font-family:'Fraunces',serif;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--dawn);margin-bottom:10px;padding-bottom:6px;border-bottom:1px solid var(--line);}
+.feat-group-title{position:sticky;top:0;z-index:2;background:var(--paper);font-family:'Fraunces',serif;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--dawn);margin:0 -24px 10px;padding:20px 24px 6px;border-bottom:1px solid var(--line);}
 .feat-item{padding:11px 6px;border-bottom:1px solid var(--line);cursor:pointer;transition:background .15s;border-radius:6px;}
 .feat-item:last-child{border-bottom:none;}
 .feat-item:hover{background:rgba(124,107,168,.07);}
